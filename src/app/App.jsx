@@ -21,11 +21,11 @@ import 'dayjs/locale/fr';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/rog_14_0124/" element={<Root />}>
+    <Route path="/" element={<Root />}>
       <Route index element={<Navigate to="home" />} />
-      <Route path="/rog_14_0124/home" element={<Home />} />
-      <Route path="/rog_14_0124/employees" element={<Employees />} />
-      <Route path="/rog_14_0124/*" element={<ErrorPage />} />
+      <Route path="home" element={<Home />} />
+      <Route path="employees" element={<Employees />} />
+      <Route path="*" element={<ErrorPage />} />
     </Route>,
   ),
 );
