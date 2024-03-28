@@ -21,7 +21,7 @@ import 'dayjs/locale/fr';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root />}>
+    <Route path="/rog_14_0124/" element={<Root />}>
       <Route index element={<Navigate to="home" />} />
       <Route path="home" element={<Home />} />
       <Route path="employees" element={<Employees />} />
